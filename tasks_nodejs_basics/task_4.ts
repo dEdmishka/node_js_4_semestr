@@ -1,6 +1,6 @@
 //npm run start:dev tasks_nodejs_basics/task_4.ts 10
 
-import os from 'os';
+import os from 'node:os';
 import si from 'systeminformation';
 const args = process.argv.slice(2);
 const frequency = parseInt(args[0]);
